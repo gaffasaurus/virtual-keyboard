@@ -17,12 +17,12 @@ class BlackKey {
   play() {
     // this.draw("rgb(4, 205, 219)");
     this.audio.pause();
-    this.audio.currentTime = 0.4;
+    this.audio.currentTime = 0.45;
     this.audio.play();
   }
 
   stop() {
     this.audio.pause();
-    this.audio.currentTime = 0.4;
+    this.audio.currentTime = 0.45;
   }
 }
